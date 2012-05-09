@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
+    <title>Home</title>
+</head>
+<body class="lift:content_id=main">
+<div id="main" class="lift:surround?with=default;at=content">
+    <h2>Welcome to your project!</h2>
+
+    <p>
+	<span class="lift:helloWorld.howdy">Welcome to your Lift app at <span id="time">Time goes here</span>
+	</span>
+    </p>
+    <div class="lift:comet?type=Chat">
+        This is my chat session:
+        <ul>
+            <li>Chat Line 1</li>
+            <li class="clearable">Chat Line 2</li>
+            <li class="clearable">Chat Line 3</li>
+        </ul>
+    </div>
+
+    <div>
+        <form class="lift:form.ajax">
+            <input class="lift:ChatIn" id="chat_in">
+            <input type="submit" value="Say Something">
+        </form>
+    </div>
+</div>
+</body>
+</html>
+
